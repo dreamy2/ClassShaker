@@ -2,7 +2,7 @@
 
 First of all, I would like to 100% credit Sleitnick, the original creator of [RbxCameraShaker.](https://github.com/Sleitnick/RbxCameraShaker/tree/master)
 
-This module can be grabbed from [this model.](https://create.roblox.com/store/asset/18112491559/ClassShaker)
+The module can be grabbed from [this model.](https://create.roblox.com/store/asset/18112491559/ClassShaker)
 
 ## Instructions
 You can download **TestPlace.rbxl** to view quick examples of how to use.
