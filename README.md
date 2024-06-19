@@ -6,7 +6,7 @@ The module can be grabbed from [this model.](https://create.roblox.com/store/ass
 
 ## Instructions
 You can download **TestPlace.rbxl** to view quick examples of how to use.
-This module only works for **Models, Attachments, BaseParts, and GuiObjects.**
+This module only works for **Models, Attachments, BaseParts, Cameras, NumberValues and GuiObjects.**
 
 ## ClassShaker.new():
 
@@ -25,6 +25,7 @@ It should be noted that settings are not required to be passed, the module will 
 | `RotationSensitivity` | Increase or decrease the rotation shake. (Default: 1) |
 | `OffsetRotation` | Primarily used for GuiObjects. Example: If my GUI is upside down, this should be 180. (Default: 0) |
 | `RenderPriority` | RenderPriority, self explanatory (Default: Enum.RenderPriority.Camera.Value) |
+| `UpdateHz` | The update hz of the shake. (Default: Player's Framerate) |
 
 **Items Returned**
 
