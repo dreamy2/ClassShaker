@@ -1,6 +1,6 @@
 # ClassShaker
 
-First of all, I would like to 100% credit Sleitnick+, the original creator of [RbxCameraShaker.](https://github.com/Sleitnick/RbxCameraShaker/tree/master)
+First of all, I would like to 100% credit Sleitnick, the original creator of [RbxCameraShaker.](https://github.com/Sleitnick/RbxCameraShaker/tree/master)
 The module can be grabbed from [this model.](https://create.roblox.com/store/asset/78454246632452/ClassShaker)
 
 ## Why use ClassShaker?
