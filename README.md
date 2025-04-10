@@ -25,6 +25,7 @@ It should be noted that settings are not required to be passed, the module will 
 | ------ | ----------- |
 | `renderPriority` | RenderPriority, self explanatory (Default: Enum.RenderPriority.Camera.Value + 1) |
 | `property` | If you'd like to "shake" a specific property of a part, put the name of the property here. |
+
 Please keep in mind that only Vector3 and number properties are accepted as of v2.
 
 **Items Returned**
@@ -32,6 +33,7 @@ Please keep in mind that only Vector3 and number properties are accepted as of v
 | Item | Description |
 | ------ | ----------- |
 | `Shaker Library` | Library for shaking your object. (Contains: :Shake(), :ShakeOnce(), :Stop(), and more.) |
+
 If you would like to asset presets, use .Presets in the library.
 
 **Presets**
