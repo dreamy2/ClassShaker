@@ -8,7 +8,7 @@ ClassShaker is a simpler version of CameraShaker to use! You can use it on many 
 
 ## Instructions
 You can download **TestPlace.rbxl** to view quick examples of how to use.
-This module only works for **Models, Attachments, BaseParts, Cameras, NumberValues and GuiObjects.**
+This module only works for **Models, Attachments, BaseParts, Cameras, NumberValues, properties with a "number" or "Vector3" type, and GuiObjects.**
 
 ## ClassShaker.new():
 
