@@ -1,8 +1,10 @@
 # ClassShaker
 
-First of all, I would like to 100% credit Sleitnick, the original creator of [RbxCameraShaker.](https://github.com/Sleitnick/RbxCameraShaker/tree/master)
+First of all, I would like to 100% credit Sleitnick+, the original creator of [RbxCameraShaker.](https://github.com/Sleitnick/RbxCameraShaker/tree/master)
+The module can be grabbed from [this model.](https://create.roblox.com/store/asset/78454246632452/ClassShaker)
 
-The module can be grabbed from [this model.](https://create.roblox.com/store/asset/18112491559/ClassShaker)
+## Why use ClassShaker?
+ClassShaker is a simpler version of CameraShaker to use! You can use it on many things, not just the camera. It also contains some optimization methods that default CameraShaker does not have. All you need to do is .new, and your library is ready for use.
 
 ## Instructions
 You can download **TestPlace.rbxl** to view quick examples of how to use.
@@ -12,8 +14,8 @@ This module only works for **Models, Attachments, BaseParts, Cameras, NumberValu
 
 | Argument | Description |
 | ------ | ----------- |
-| `Argument 1` | Object you want to affect. |
-| `Argument 2` | Settings table. |
+| `Argument 1` | Object you want to shake. |
+| `Argument 2` | Settings table. More information below. |
 
 **Settings**
 
@@ -21,18 +23,16 @@ It should be noted that settings are not required to be passed, the module will 
 
 | Setting | Description |
 | ------ | ----------- |
-| `PositionSensitivity` | Increase or decrease the position shake. (Default: 1) |
-| `RotationSensitivity` | Increase or decrease the rotation shake. (Default: 1) |
-| `OffsetRotation` | Primarily used for GuiObjects. Example: If my GUI is upside down, this should be 180. (Default: 0) |
-| `RenderPriority` | RenderPriority, self explanatory (Default: Enum.RenderPriority.Camera.Value) |
-| `UpdateHz` | The update hz of the shake. (Default: Player's Framerate) |
+| `renderPriority` | RenderPriority, self explanatory (Default: Enum.RenderPriority.Camera.Value + 1) |
+| `property` | If you'd like to "shake" a specific property of a part, put the name of the property here. |
+Please keep in mind that only Vector3 and number properties are accepted as of v2.
 
 **Items Returned**
 
 | Item | Description |
 | ------ | ----------- |
-| `Shaker Library` | Library for shaking your object. (For example, :Shake(), :ShakeOnce(), :Stop(), and more.) |
-| `Shaker Presets` | Presets that can be used for your object's shake. |
+| `Shaker Library` | Library for shaking your object. (Contains: :Shake(), :ShakeOnce(), :Stop(), and more.) |
+If you would like to asset presets, use .Presets in the library.
 
 **Presets**
 ```
@@ -41,6 +41,6 @@ Bump, Bump2, Explosion, Earthquake, BadTrip, HandheldCamera, Vibration, RoughDri
 
 ## End
 
-That is all currently for this module. There are extra features from [RbxCameraShaker](https://github.com/Sleitnick/RbxCameraShaker/tree/master) that can be used here, feel free to check it out!
+That is all currently for this module. There are extra functions carried over from [RbxCameraShaker](https://github.com/Sleitnick/RbxCameraShaker/tree/master) that can be used here, feel free to check it out!
 
-Join my [discord server](https://discord.gg/2JdU9x4usT) if you run into any problems, or if you would like to ask anything.
+Join my [discord server](https://discord.gg/2JdU9x4usT) if you run into any problems, suggestions, or if you would like to ask anything.
